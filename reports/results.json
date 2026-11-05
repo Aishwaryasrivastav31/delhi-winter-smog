@@ -1,0 +1,3406 @@
+{
+ "detections": [
+  {
+   "year": 2018,
+   "detections": 73045,
+   "night_share": 0.0046820453,
+   "median_frp_mw": 4.75,
+   "low_confidence_share": 0.0302553221
+  },
+  {
+   "year": 2019,
+   "detections": 54334,
+   "night_share": 0.0043619097,
+   "median_frp_mw": 4.86,
+   "low_confidence_share": 0.0341958994
+  },
+  {
+   "year": 2020,
+   "detections": 86601,
+   "night_share": 0.0060622857,
+   "median_frp_mw": 4.98,
+   "low_confidence_share": 0.0706573827
+  },
+  {
+   "year": 2021,
+   "detections": 96664,
+   "night_share": 0.0029587023,
+   "median_frp_mw": 5.06,
+   "low_confidence_share": 0.0507427791
+  },
+  {
+   "year": 2022,
+   "detections": 55254,
+   "night_share": 0.0058457306,
+   "median_frp_mw": 4.84,
+   "low_confidence_share": 0.0345314366
+  },
+  {
+   "year": 2023,
+   "detections": 37572,
+   "night_share": 0.0085169807,
+   "median_frp_mw": 4.52,
+   "low_confidence_share": 0.0323379112
+  },
+  {
+   "year": 2024,
+   "detections": 16074,
+   "night_share": 0.040126913,
+   "median_frp_mw": 3.76,
+   "low_confidence_share": 0.0623366928
+  },
+  {
+   "year": 2025,
+   "detections": 10033,
+   "night_share": 0.0367786305,
+   "median_frp_mw": 3.76,
+   "low_confidence_share": 0.0558158078
+  }
+ ],
+ "fire_years": [
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025
+ ],
+ "station_days_pm25": {
+  "Anand Vihar": 2518,
+  "Ashok Vihar": 2729,
+  "Aya Nagar": 2671,
+  "Bawana": 2653
+ },
+ "max_identical_share": 0.014,
+ "hourly_rows": 280512,
+ "snpp_detections": 742861,
+ "noaa20_detections": 115271,
+ "effects": [
+  {
+   "period": "2018-2023",
+   "term": "upwind",
+   "estimate": 31.5648501878,
+   "se": 10.2753347544,
+   "ci_low": 11.4251940691,
+   "ci_high": 51.7045063065,
+   "p_value": 0.0021269755
+  },
+  {
+   "period": "2018-2023",
+   "term": "downwind (placebo)",
+   "estimate": -0.8771797446,
+   "se": 13.4553683517,
+   "ci_low": -27.2497017139,
+   "ci_high": 25.4953422247,
+   "p_value": 0.9480212862
+  },
+  {
+   "period": "2018-2023",
+   "term": "upwind lag 0",
+   "estimate": 24.4682046774,
+   "se": 6.2273303673,
+   "ci_low": 12.2626371575,
+   "ci_high": 36.6737721972,
+   "p_value": 8.52416e-05
+  },
+  {
+   "period": "2018-2023",
+   "term": "upwind lag 1",
+   "estimate": -1.5508490129,
+   "se": 7.2406790691,
+   "ci_low": -15.7425799884,
+   "ci_high": 12.6408819625,
+   "p_value": 0.8304023442
+  },
+  {
+   "period": "2018-2023",
+   "term": "upwind lag 2",
+   "estimate": 8.6474945234,
+   "se": 7.6417846874,
+   "ci_low": -6.330403464,
+   "ci_high": 23.6253925108,
+   "p_value": 0.2577998346
+  },
+  {
+   "period": "2024-2025",
+   "term": "upwind",
+   "estimate": 241.3094402015,
+   "se": 85.1652662971,
+   "ci_low": 74.3855182592,
+   "ci_high": 408.2333621437,
+   "p_value": 0.0046052036
+  },
+  {
+   "period": "2024-2025",
+   "term": "downwind (placebo)",
+   "estimate": -16.5872873453,
+   "se": 82.6720706051,
+   "ci_low": -178.6245457312,
+   "ci_high": 145.4499710407,
+   "p_value": 0.8409804276
+  },
+  {
+   "period": "2024-2025",
+   "term": "upwind lag 0",
+   "estimate": 178.0808478845,
+   "se": 74.5752475337,
+   "ci_low": 31.9133627185,
+   "ci_high": 324.2483330506,
+   "p_value": 0.0169433356
+  },
+  {
+   "period": "2024-2025",
+   "term": "upwind lag 1",
+   "estimate": 64.4683156269,
+   "se": 35.2175248916,
+   "ci_low": -4.5580331606,
+   "ci_high": 133.4946644144,
+   "p_value": 0.0671640241
+  },
+  {
+   "period": "2024-2025",
+   "term": "upwind lag 2",
+   "estimate": -1.23972331,
+   "se": 20.7780399409,
+   "ci_low": -41.9646815942,
+   "ci_high": 39.4852349743,
+   "p_value": 0.9524223883
+  },
+  {
+   "period": "2024-2025 minus 2018-2023",
+   "term": "upwind, difference",
+   "estimate": 209.7445900136,
+   "se": 85.7371064236,
+   "ci_low": 41.6998614234,
+   "ci_high": 377.7893186039,
+   "p_value": 0.014430327
+  }
+ ],
+ "contrib": [
+  {
+   "period": "Oct-Nov, 2018-2025",
+   "days": 485,
+   "pm25_mean": 179.7065229419,
+   "fire_contrib": 26.4318169316,
+   "ci_low": 13.2494887301,
+   "ci_high": 39.6141451332,
+   "share": 0.147083236,
+   "share_ci_low": 0.0737284797,
+   "share_ci_high": 0.2204379924,
+   "median_daily_share": 0.0852117935,
+   "p90_daily_share": 0.3442674529,
+   "days_share_over_25pct": 86
+  },
+  {
+   "period": "Oct-Nov, 2018-2023",
+   "days": 363,
+   "pm25_mean": 174.7161106278,
+   "fire_contrib": 25.3419881742,
+   "ci_low": 9.1673470969,
+   "ci_high": 41.5166292514,
+   "share": 0.1450466593,
+   "share_ci_low": 0.0524699586,
+   "share_ci_high": 0.23762336,
+   "median_daily_share": 0.0767528256,
+   "p90_daily_share": 0.3313722487,
+   "days_share_over_25pct": 59
+  },
+  {
+   "period": "Oct-Nov, 2024-2025",
+   "days": 122,
+   "pm25_mean": 194.555044827,
+   "fire_contrib": 29.6745041363,
+   "ci_low": 9.1386362798,
+   "ci_high": 50.2103719928,
+   "share": 0.152524979,
+   "share_ci_low": 0.0469719831,
+   "share_ci_high": 0.258077975,
+   "median_daily_share": 0.1175510473,
+   "p90_daily_share": 0.3447429888,
+   "days_share_over_25pct": 27
+  },
+  {
+   "period": "October, 2018-2025",
+   "days": 245,
+   "pm25_mean": 123.0107430241,
+   "fire_contrib": 16.0535511078,
+   "ci_low": 8.7217001358,
+   "ci_high": 23.3854020797,
+   "share": 0.1305052771,
+   "share_ci_low": 0.0709019385,
+   "share_ci_high": 0.1901086158,
+   "median_daily_share": 0.0809493115,
+   "p90_daily_share": 0.2701383415,
+   "days_share_over_25pct": 33
+  },
+  {
+   "period": "November, 2018-2025",
+   "days": 240,
+   "pm25_mean": 237.5834649412,
+   "fire_contrib": 37.0262966268,
+   "ci_low": 17.8157734266,
+   "ci_high": 56.2368198271,
+   "share": 0.1558454274,
+   "share_ci_low": 0.0749874299,
+   "share_ci_high": 0.2367034248,
+   "median_daily_share": 0.0869040545,
+   "p90_daily_share": 0.3983637283,
+   "days_share_over_25pct": 53
+  }
+ ],
+ "contrib_year": [
+  {
+   "year": 2018,
+   "snpp_detections_oct_nov": 73045,
+   "days": 61,
+   "pm25_mean": 168.8962611696,
+   "fire_contrib": 20.7084979745,
+   "ci_low": 7.5120622832,
+   "ci_high": 33.9049336659,
+   "share": 0.1226107543,
+   "share_ci_low": 0.0444773746,
+   "share_ci_high": 0.2007441339,
+   "median_daily_share": 0.0663117883,
+   "p90_daily_share": 0.3159866131,
+   "days_share_over_25pct": 8,
+   "october_share": 0.1003028682,
+   "november_share": 0.1368036596
+  },
+  {
+   "year": 2019,
+   "snpp_detections_oct_nov": 54334,
+   "days": 61,
+   "pm25_mean": 180.6599960299,
+   "fire_contrib": 20.3079153154,
+   "ci_low": 7.3747579584,
+   "ci_high": 33.2410726724,
+   "share": 0.1124095858,
+   "share_ci_low": 0.0408212007,
+   "share_ci_high": 0.1839979708,
+   "median_daily_share": 0.050447582,
+   "p90_daily_share": 0.2793784269,
+   "days_share_over_25pct": 7,
+   "october_share": 0.1054020441,
+   "november_share": 0.1169515462
+  },
+  {
+   "year": 2020,
+   "snpp_detections_oct_nov": 86601,
+   "days": 61,
+   "pm25_mean": 194.2841452966,
+   "fire_contrib": 39.5931566111,
+   "ci_low": 14.292697588,
+   "ci_high": 64.8936156342,
+   "share": 0.2037899518,
+   "share_ci_low": 0.0735659493,
+   "share_ci_high": 0.3340139543,
+   "median_daily_share": 0.1339367056,
+   "p90_daily_share": 0.42477578,
+   "days_share_over_25pct": 18,
+   "october_share": 0.2182197972,
+   "november_share": 0.1945955566
+  },
+  {
+   "year": 2021,
+   "snpp_detections_oct_nov": 96664,
+   "days": 61,
+   "pm25_mean": 162.7854575647,
+   "fire_contrib": 38.7639615943,
+   "ci_low": 14.053592849,
+   "ci_high": 63.4743303396,
+   "share": 0.2381291436,
+   "share_ci_low": 0.0863319922,
+   "share_ci_high": 0.3899262949,
+   "median_daily_share": 0.1148399346,
+   "p90_daily_share": 0.5316781408,
+   "days_share_over_25pct": 21,
+   "october_share": 0.2097745872,
+   "november_share": 0.2477106345
+  },
+  {
+   "year": 2022,
+   "snpp_detections_oct_nov": 55254,
+   "days": 61,
+   "pm25_mean": 152.0885360527,
+   "fire_contrib": 17.8385459806,
+   "ci_low": 6.4784924486,
+   "ci_high": 29.1985995127,
+   "share": 0.1172905364,
+   "share_ci_low": 0.0425968493,
+   "share_ci_high": 0.1919842236,
+   "median_daily_share": 0.0690766527,
+   "p90_daily_share": 0.2352773829,
+   "days_share_over_25pct": 5,
+   "october_share": 0.1009157013,
+   "november_share": 0.1269741474
+  },
+  {
+   "year": 2023,
+   "snpp_detections_oct_nov": 37572,
+   "days": 58,
+   "pm25_mean": 190.3512068099,
+   "fire_contrib": 14.2966376066,
+   "ci_low": 5.0918196707,
+   "ci_high": 23.5014555426,
+   "share": 0.0751066297,
+   "share_ci_low": 0.0267496054,
+   "share_ci_high": 0.123463654,
+   "median_daily_share": 0.0559206391,
+   "p90_daily_share": 0.1551700162,
+   "days_share_over_25pct": 0,
+   "october_share": 0.0523504861,
+   "november_share": 0.0850638978
+  },
+  {
+   "year": 2024,
+   "snpp_detections_oct_nov": 16074,
+   "days": 61,
+   "pm25_mean": 205.2854961047,
+   "fire_contrib": 37.3174020961,
+   "ci_low": 11.4907789679,
+   "ci_high": 63.1440252243,
+   "share": 0.1817829452,
+   "share_ci_low": 0.0559746265,
+   "share_ci_high": 0.307591264,
+   "median_daily_share": 0.142838622,
+   "p90_daily_share": 0.4679487705,
+   "days_share_over_25pct": 16,
+   "october_share": 0.1783856312,
+   "november_share": 0.1833683079
+  },
+  {
+   "year": 2025,
+   "snpp_detections_oct_nov": 10033,
+   "days": 61,
+   "pm25_mean": 183.8245935493,
+   "fire_contrib": 22.0316061765,
+   "ci_low": 6.7864787154,
+   "ci_high": 37.2767336376,
+   "share": 0.1198512438,
+   "share_ci_low": 0.0369182305,
+   "share_ci_high": 0.2027842571,
+   "median_daily_share": 0.087539312,
+   "p90_daily_share": 0.2722174022,
+   "days_share_over_25pct": 11,
+   "october_share": 0.0790955035,
+   "november_share": 0.1414566445
+  }
+ ],
+ "primary": {
+  "analysis": "PRIMARY: week FE, per-period effect",
+  "station_days": 1822,
+  "days": 485,
+  "fire_share": 0.14708323603921436,
+  "fire_ci_low": 0.07372847970805306,
+  "fire_ci_high": 0.22043799237037565,
+  "placebo_share": -0.0016957013437486578,
+  "placebo_ci_low": -0.020569466320868337,
+  "placebo_ci_high": 0.017178063633371023
+ },
+ "ladder": [
+  {
+   "analysis": "1. Pre-specified: full year, seasonal curve + year FE, one effect for all years",
+   "station_days": 10567,
+   "days": 2911,
+   "fire_share": 0.1013934377,
+   "fire_ci_low": 0.0747246307,
+   "fire_ci_high": 0.1280622446,
+   "placebo_share": 0.0097835855,
+   "placebo_ci_low": -0.0003471242,
+   "placebo_ci_high": 0.0199142953,
+   "share_2018-2023": 0.1325339221,
+   "share_2024-2025": 0.0181859106
+  },
+  {
+   "analysis": "2. Oct-Nov, seasonal curve + year FE, one effect",
+   "station_days": 1822,
+   "days": 485,
+   "fire_share": 0.0520414257,
+   "fire_ci_low": 0.0100698326,
+   "fire_ci_high": 0.0940130188,
+   "placebo_share": 0.0022066992,
+   "placebo_ci_low": -0.0147238057,
+   "placebo_ci_high": 0.0191372041,
+   "share_2018-2023": 0.0680178836,
+   "share_2024-2025": 0.0093522518
+  },
+  {
+   "analysis": "3. Oct-Nov, week FE, one effect",
+   "station_days": 1822,
+   "days": 485,
+   "fire_share": 0.1155304333,
+   "fire_ci_low": 0.0427073685,
+   "fire_ci_high": 0.188353498,
+   "placebo_share": 0.0042134352,
+   "placebo_ci_low": -0.0115915876,
+   "placebo_ci_high": 0.0200184581,
+   "share_2018-2023": 0.1510074056,
+   "share_2024-2025": 0.0207357892
+  },
+  {
+   "analysis": "4. PRIMARY: Oct-Nov, week FE, effect per detection period",
+   "station_days": 1822,
+   "days": 485,
+   "fire_share": 0.147083236,
+   "fire_ci_low": 0.0737284797,
+   "fire_ci_high": 0.2204379924,
+   "placebo_share": -0.0016957013,
+   "placebo_ci_low": -0.0205694663,
+   "placebo_ci_high": 0.0171780636,
+   "share_2018-2023": 0.1450466593,
+   "share_2024-2025": 0.152524979
+  }
+ ],
+ "lag3": {
+  "2018-2023": {
+   "estimate": 9.306345610427101,
+   "se": 6.82297217502273,
+   "ci_low": -4.066679852617449,
+   "ci_high": 22.67937107347165,
+   "p_value": 0.172576258028398
+  },
+  "2024-2025": {
+   "estimate": -7.60403191605927,
+   "se": 23.759587987987558,
+   "ci_low": -54.17282437251488,
+   "ci_high": 38.96476054039634,
+   "p_value": 0.7489375815309005
+  }
+ },
+ "leads": {
+  "2018-2023": {
+   "estimate": 10.730356633777618,
+   "se": 8.790728485843884,
+   "ci_low": -6.499471198476396,
+   "ci_high": 27.96018446603163,
+   "p_value": 0.22222055257708584
+  },
+  "2024-2025": {
+   "estimate": 105.68076280935148,
+   "se": 30.93365244121579,
+   "ci_low": 45.05080402456853,
+   "ci_high": 166.31072159413444,
+   "p_value": 0.0006346225300242765
+  }
+ },
+ "station_wind_disagreement": {
+  "days": 486,
+  "median_abs_deg": 95.09530455224467,
+  "share_within_45": 0.19958847736625515
+ },
+ "checks": [
+  {
+   "analysis": "PRIMARY: week FE, per-period effect",
+   "station_days": 1822,
+   "days": 485,
+   "fire_share": 0.147083236,
+   "fire_ci_low": 0.0737284797,
+   "fire_ci_high": 0.2204379924,
+   "placebo_share": -0.0016957013,
+   "placebo_ci_low": -0.0205694663,
+   "placebo_ci_high": 0.0171780636,
+   "note": null
+  },
+  {
+   "analysis": "Three detection periods (2018-21, 2022-23, 2024-25)",
+   "station_days": 1822,
+   "days": 485,
+   "fire_share": 0.1493769312,
+   "fire_ci_low": 0.0787809197,
+   "fire_ci_high": 0.2199729428,
+   "placebo_share": 0.0008480253,
+   "placebo_ci_low": -0.0163363438,
+   "placebo_ci_high": 0.0180323943,
+   "note": null
+  },
+  {
+   "analysis": "A separate effect for every year",
+   "station_days": 1822,
+   "days": 485,
+   "fire_share": 0.1609831088,
+   "fire_ci_low": 0.1192020981,
+   "fire_ci_high": 0.2027641196,
+   "placebo_share": -0.0172622984,
+   "placebo_ci_low": -0.0385182063,
+   "placebo_ci_high": 0.0039936095,
+   "note": null
+  },
+  {
+   "analysis": "Four lags (0-3 days)",
+   "station_days": 1822,
+   "days": 485,
+   "fire_share": 0.1749916248,
+   "fire_ci_low": 0.0804916817,
+   "fire_ci_high": 0.2694915678,
+   "placebo_share": -0.0003583661,
+   "placebo_ci_low": -0.026697765,
+   "placebo_ci_high": 0.0259810328,
+   "note": "lag-3 effect 2018-2023: 9.3 (p=0.17); lag-3 effect 2024-2025: -7.6 (p=0.75)"
+  },
+  {
+   "analysis": "Future fires (1-2 days ahead) added",
+   "station_days": 1822,
+   "days": 485,
+   "fire_share": 0.1477180068,
+   "fire_ci_low": 0.0793297116,
+   "fire_ci_high": 0.2161063019,
+   "placebo_share": -0.000157998,
+   "placebo_ci_low": -0.0185172547,
+   "placebo_ci_high": 0.0182012588,
+   "note": "future-fire effect 2018-2023: 10.7 [-6.5, 28.0], p=0.222; future-fire effect 2024-2025: 105.7 [45.1, 166.3], p=0.001"
+  },
+  {
+   "analysis": "Total fire count held fixed (only wind alignment varies)",
+   "station_days": 1822,
+   "days": 485,
+   "fire_share": 0.1456202879,
+   "fire_ci_low": 0.0168401295,
+   "fire_ci_high": 0.2744004463,
+   "placebo_share": null,
+   "placebo_ci_low": null,
+   "placebo_ci_high": null,
+   "note": null
+  },
+  {
+   "analysis": "10 m wind direction instead of 50 m",
+   "station_days": 1822,
+   "days": 485,
+   "fire_share": 0.1493074358,
+   "fire_ci_low": 0.0760023109,
+   "fire_ci_high": 0.2226125607,
+   "placebo_share": -0.0012528189,
+   "placebo_ci_low": -0.0202099427,
+   "placebo_ci_high": 0.0177043049,
+   "note": null
+  },
+  {
+   "analysis": "Narrow wind cone (cos^4 weighting)",
+   "station_days": 1822,
+   "days": 485,
+   "fire_share": 0.1233161634,
+   "fire_ci_low": 0.0521297642,
+   "fire_ci_high": 0.1945025626,
+   "placebo_share": -0.0063421616,
+   "placebo_ci_low": -0.0178251391,
+   "placebo_ci_high": 0.0051408159,
+   "note": null
+  },
+  {
+   "analysis": "High/nominal-confidence fires only",
+   "station_days": 1822,
+   "days": 485,
+   "fire_share": 0.147226318,
+   "fire_ci_low": 0.0766902952,
+   "fire_ci_high": 0.2177623409,
+   "placebo_share": -0.0024048144,
+   "placebo_ci_low": -0.0206248257,
+   "placebo_ci_high": 0.015815197,
+   "note": null
+  },
+  {
+   "analysis": "Delhi monitors' own wind sensors instead of NASA wind*",
+   "station_days": 1814,
+   "days": 482,
+   "fire_share": 0.009659898,
+   "fire_ci_low": -0.0096187053,
+   "fire_ci_high": 0.0289385013,
+   "placebo_share": 0.0690041482,
+   "placebo_ci_low": 0.0119707503,
+   "placebo_ci_high": 0.126037546,
+   "note": null
+  },
+  {
+   "analysis": "Wider window 15 Sep - 15 Dec",
+   "station_days": 2748,
+   "days": 733,
+   "fire_share": 0.1472172808,
+   "fire_ci_low": 0.0707370061,
+   "fire_ci_high": 0.2236975556,
+   "placebo_share": -0.0022626325,
+   "placebo_ci_low": -0.0205662058,
+   "placebo_ci_high": 0.0160409408,
+   "note": null
+  }
+ ],
+ "satellite": [
+  {
+   "analysis": "SNPP, 2024-2025 only",
+   "station_days": 479,
+   "days": 122,
+   "fire_share": 0.1779796807,
+   "fire_ci_low": 0.1091331812,
+   "fire_ci_high": 0.2468261802,
+   "placebo_share": -0.017160064,
+   "placebo_ci_low": -0.0445085304,
+   "placebo_ci_high": 0.0101884023
+  },
+  {
+   "analysis": "NOAA20, 2024-2025 only",
+   "station_days": 479,
+   "days": 122,
+   "fire_share": 0.1309339781,
+   "fire_ci_low": 0.0771514908,
+   "fire_ci_high": 0.1847164653,
+   "placebo_share": -0.0441121051,
+   "placebo_ci_low": -0.1042032704,
+   "placebo_ci_high": 0.0159790602
+  }
+ ],
+ "co": [
+  {
+   "period": "2018-2023",
+   "term": "upwind",
+   "estimate": 0.0635998356,
+   "se": 0.0399678384,
+   "ci_low": -0.0147371278,
+   "ci_high": 0.1419367989,
+   "p_value": 0.1115476247
+  },
+  {
+   "period": "2018-2023",
+   "term": "downwind (placebo)",
+   "estimate": -0.2262788499,
+   "se": 0.1180568257,
+   "ci_low": -0.4576702282,
+   "ci_high": 0.0051125284,
+   "p_value": 0.0552767743
+  },
+  {
+   "period": "2024-2025",
+   "term": "upwind",
+   "estimate": -0.1854706057,
+   "se": 0.224598499,
+   "ci_low": -0.6256836637,
+   "ci_high": 0.2547424522,
+   "p_value": 0.4089247149
+  },
+  {
+   "period": "2024-2025",
+   "term": "downwind (placebo)",
+   "estimate": -1.3783797395,
+   "se": 0.397615574,
+   "ci_low": -2.1577062645,
+   "ci_high": -0.5990532144,
+   "p_value": 0.0005270581
+  }
+ ],
+ "stations": [
+  {
+   "analysis": "Anand Vihar",
+   "station_days": 447,
+   "days": 447,
+   "fire_share": 0.1399990387,
+   "fire_ci_low": 0.0773851634,
+   "fire_ci_high": 0.2026129139,
+   "placebo_share": -0.0094127763,
+   "placebo_ci_low": -0.0287625408,
+   "placebo_ci_high": 0.0099369881
+  },
+  {
+   "analysis": "Ashok Vihar",
+   "station_days": 436,
+   "days": 436,
+   "fire_share": 0.1035342738,
+   "fire_ci_low": 0.0474787275,
+   "fire_ci_high": 0.1595898202,
+   "placebo_share": -0.0043168848,
+   "placebo_ci_low": -0.0224612023,
+   "placebo_ci_high": 0.0138274326
+  },
+  {
+   "analysis": "Aya Nagar",
+   "station_days": 465,
+   "days": 465,
+   "fire_share": 0.2086201771,
+   "fire_ci_low": 0.0995562801,
+   "fire_ci_high": 0.317684074,
+   "placebo_share": 0.0104661738,
+   "placebo_ci_low": -0.0172062492,
+   "placebo_ci_high": 0.0381385967
+  },
+  {
+   "analysis": "Bawana",
+   "station_days": 474,
+   "days": 474,
+   "fire_share": 0.1341412561,
+   "fire_ci_low": 0.0631709695,
+   "fire_ci_high": 0.2051115428,
+   "placebo_share": -0.0009313394,
+   "placebo_ci_low": -0.0217653488,
+   "placebo_ci_high": 0.01990267
+  }
+ ],
+ "wheat": {
+  "analysis": "April-May (wheat residue)",
+  "station_days": 1697,
+  "days": 487,
+  "fire_share": 0.04563103173794969,
+  "fire_ci_low": 0.01838642769597466,
+  "fire_ci_high": 0.07287563577992472,
+  "placebo_share": -0.019893177583429837,
+  "placebo_ci_low": -0.031048577083454872,
+  "placebo_ci_high": -0.008737778083404805
+ },
+ "dose": [
+  {
+   "bin": "Q1",
+   "days": 92,
+   "estimate": 0.748598448,
+   "se": 12.055060021,
+   "ci_low": -22.8793191933,
+   "ci_high": 24.3765160892,
+   "p_value": 0.9504845697
+  },
+  {
+   "bin": "Q2",
+   "days": 88,
+   "estimate": 9.8730241441,
+   "se": 15.0148220774,
+   "ci_low": -19.5560271277,
+   "ci_high": 39.3020754158,
+   "p_value": 0.5108261384
+  },
+  {
+   "bin": "Q3",
+   "days": 91,
+   "estimate": 4.7595914249,
+   "se": 16.1219359276,
+   "ci_low": -26.8394029933,
+   "ci_high": 36.3585858431,
+   "p_value": 0.7678223423
+  },
+  {
+   "bin": "Q4",
+   "days": 89,
+   "estimate": 8.1911602476,
+   "se": 16.5333730292,
+   "ci_low": -24.2142508897,
+   "ci_high": 40.5965713848,
+   "p_value": 0.6202952887
+  },
+  {
+   "bin": "Q5",
+   "days": 92,
+   "estimate": 37.8495658671,
+   "se": 17.2554822024,
+   "ci_low": 4.0288207503,
+   "ci_high": 71.6703109838,
+   "p_value": 0.0282727691
+  }
+ ],
+ "event_study": [
+  {
+   "event": "upwind spike",
+   "offset": -5,
+   "events": 56,
+   "pm25_vs_21day_mean": -9.9011971637,
+   "ci_low": -27.6000228479,
+   "ci_high": 9.0202949648
+  },
+  {
+   "event": "upwind spike",
+   "offset": -4,
+   "events": 56,
+   "pm25_vs_21day_mean": -4.0762696691,
+   "ci_low": -25.9473331178,
+   "ci_high": 16.9228718804
+  },
+  {
+   "event": "upwind spike",
+   "offset": -3,
+   "events": 56,
+   "pm25_vs_21day_mean": 0.6071017733,
+   "ci_low": -19.6368118461,
+   "ci_high": 21.6631281054
+  },
+  {
+   "event": "upwind spike",
+   "offset": -2,
+   "events": 56,
+   "pm25_vs_21day_mean": 12.9890684981,
+   "ci_low": -9.7286121409,
+   "ci_high": 36.4938533967
+  },
+  {
+   "event": "upwind spike",
+   "offset": -1,
+   "events": 56,
+   "pm25_vs_21day_mean": 26.160803053,
+   "ci_low": 2.9683476232,
+   "ci_high": 51.7985918718
+  },
+  {
+   "event": "upwind spike",
+   "offset": 0,
+   "events": 56,
+   "pm25_vs_21day_mean": 44.0699242408,
+   "ci_low": 21.1460472577,
+   "ci_high": 68.4027134484
+  },
+  {
+   "event": "upwind spike",
+   "offset": 1,
+   "events": 56,
+   "pm25_vs_21day_mean": 42.051114611,
+   "ci_low": 19.3286810691,
+   "ci_high": 66.9287086368
+  },
+  {
+   "event": "upwind spike",
+   "offset": 2,
+   "events": 56,
+   "pm25_vs_21day_mean": 34.4586140252,
+   "ci_low": 11.6587888083,
+   "ci_high": 58.1873969947
+  },
+  {
+   "event": "upwind spike",
+   "offset": 3,
+   "events": 56,
+   "pm25_vs_21day_mean": 22.4716656611,
+   "ci_low": -1.2462991649,
+   "ci_high": 45.8688878799
+  },
+  {
+   "event": "upwind spike",
+   "offset": 4,
+   "events": 56,
+   "pm25_vs_21day_mean": 31.6312229524,
+   "ci_low": 7.0318031528,
+   "ci_high": 57.7768739759
+  },
+  {
+   "event": "upwind spike",
+   "offset": 5,
+   "events": 56,
+   "pm25_vs_21day_mean": 23.2660303387,
+   "ci_low": -0.5585210437,
+   "ci_high": 49.5333171437
+  },
+  {
+   "event": "downwind spike (placebo)",
+   "offset": -5,
+   "events": 56,
+   "pm25_vs_21day_mean": 16.0915938077,
+   "ci_low": 0.9145742736,
+   "ci_high": 32.7758392981
+  },
+  {
+   "event": "downwind spike (placebo)",
+   "offset": -4,
+   "events": 56,
+   "pm25_vs_21day_mean": 11.3601159312,
+   "ci_low": -7.4613578397,
+   "ci_high": 31.3608188138
+  },
+  {
+   "event": "downwind spike (placebo)",
+   "offset": -3,
+   "events": 56,
+   "pm25_vs_21day_mean": 12.9787154939,
+   "ci_low": -4.6394170978,
+   "ci_high": 34.3802786514
+  },
+  {
+   "event": "downwind spike (placebo)",
+   "offset": -2,
+   "events": 56,
+   "pm25_vs_21day_mean": 9.7740287092,
+   "ci_low": -9.224965675,
+   "ci_high": 29.4399056096
+  },
+  {
+   "event": "downwind spike (placebo)",
+   "offset": -1,
+   "events": 56,
+   "pm25_vs_21day_mean": 6.7087561146,
+   "ci_low": -14.2755244379,
+   "ci_high": 29.568876303
+  },
+  {
+   "event": "downwind spike (placebo)",
+   "offset": 0,
+   "events": 56,
+   "pm25_vs_21day_mean": -12.8335840125,
+   "ci_low": -31.5481841918,
+   "ci_high": 6.3976422116
+  },
+  {
+   "event": "downwind spike (placebo)",
+   "offset": 1,
+   "events": 56,
+   "pm25_vs_21day_mean": -27.6585608232,
+   "ci_low": -45.2510076001,
+   "ci_high": -8.1511416557
+  },
+  {
+   "event": "downwind spike (placebo)",
+   "offset": 2,
+   "events": 56,
+   "pm25_vs_21day_mean": -11.3917639942,
+   "ci_low": -32.261389712,
+   "ci_high": 11.5882542297
+  },
+  {
+   "event": "downwind spike (placebo)",
+   "offset": 3,
+   "events": 56,
+   "pm25_vs_21day_mean": -0.4057162128,
+   "ci_low": -17.7416049027,
+   "ci_high": 17.7750766809
+  },
+  {
+   "event": "downwind spike (placebo)",
+   "offset": 4,
+   "events": 56,
+   "pm25_vs_21day_mean": 14.1314859408,
+   "ci_low": -1.5140999094,
+   "ci_high": 31.6943187618
+  },
+  {
+   "event": "downwind spike (placebo)",
+   "offset": 5,
+   "events": 56,
+   "pm25_vs_21day_mean": 12.8512054922,
+   "ci_low": -4.4213597393,
+   "ci_high": 30.840609599
+  }
+ ],
+ "permutation": {
+  "observed_share": 0.1456202878945221,
+  "n_perm": 1000,
+  "p_value": 0.01998001998001998,
+  "null_mean": 0.040851805016786626,
+  "null_p95": 0.1203253165179285,
+  "null_max": 0.1784481881336595
+ },
+ "festivals": [
+  {
+   "festival": "Diwali",
+   "years": 8,
+   "nights_above_baseline": 8,
+   "sign_test_p": 0.0078125,
+   "night_pm25": 500.4067224702,
+   "night_baseline": 221.6953050595,
+   "night_ratio_of_means": 2.2571823176,
+   "night_share_mean": 0.517893456,
+   "peak_hour_ratio_max": 6.9561656722,
+   "peak_hour_ratio_max_year": 2025,
+   "share_two_days": 0.2631705568,
+   "share_two_days_ci_low": 0.0091308794,
+   "share_two_days_ci_high": 0.5172102342,
+   "share_two_days_years_positive": 6,
+   "share_week": 0.1023154005,
+   "share_week_ci_low": 0.0061111099,
+   "share_week_ci_high": 0.1985196912,
+   "share_week_years_positive": 6,
+   "share_month": 0.0344690118,
+   "share_month_ci_low": 0.0032527727,
+   "share_month_ci_high": 0.0656852509,
+   "share_month_years_positive": 6,
+   "share_season": 0.0169385783,
+   "share_season_ci_low": 0.0013012676,
+   "share_season_ci_high": 0.032575889,
+   "share_season_years_positive": 6,
+   "spearman_wind_vs_month_share": -0.7380952381,
+   "calm_years": "2018,2019,2020,2021,2025",
+   "windy_years": "2022,2023,2024",
+   "share_month_calm": 0.0569902086,
+   "share_month_windy": -0.0030663162,
+   "share_week_calm": 0.1739437224,
+   "share_week_windy": -0.0170651359,
+   "share_week_calm_min": 0.0789445458,
+   "mean_excess_18-24h": 189.512328559,
+   "mean_excess_00-06h": 259.8904817708,
+   "mean_excess_06-12h": 97.0671216725,
+   "mean_excess_12-18h": 26.1326605903,
+   "mean_excess_18-24h next": 66.5514171007
+  },
+  {
+   "festival": "Dussehra",
+   "years": 8,
+   "nights_above_baseline": 6,
+   "sign_test_p": 0.2890625,
+   "night_pm25": 140.1158928571,
+   "night_baseline": 118.3571633185,
+   "night_ratio_of_means": 1.183839566,
+   "night_share_mean": 0.0592145007,
+   "peak_hour_ratio_max": 1.844126506,
+   "peak_hour_ratio_max_year": 2021,
+   "share_two_days": 0.0115628792,
+   "share_two_days_ci_low": -0.2285104066,
+   "share_two_days_ci_high": 0.2516361649,
+   "share_two_days_years_positive": 3,
+   "share_week": 0.0119684033,
+   "share_week_ci_low": -0.0690852061,
+   "share_week_ci_high": 0.0930220128,
+   "share_week_years_positive": 3,
+   "share_month": 0.0063251005,
+   "share_month_ci_low": -0.015073584,
+   "share_month_ci_high": 0.0277237851,
+   "share_month_years_positive": 3,
+   "share_season": 0.0018544641,
+   "share_season_ci_low": -0.0044131754,
+   "share_season_ci_high": 0.0081221037,
+   "share_season_years_positive": 3,
+   "spearman_wind_vs_month_share": -0.1428571429,
+   "calm_years": "2018,2019,2021,2022,2024,2025",
+   "windy_years": "2020,2023",
+   "share_month_calm": 0.008190682,
+   "share_month_windy": 0.0007283562,
+   "share_week_calm": 0.0168276362,
+   "share_week_windy": -0.0026092953,
+   "share_week_calm_min": -0.0868456408,
+   "mean_excess_18-24h": 13.9638324653,
+   "mean_excess_00-06h": 21.0570659722,
+   "mean_excess_06-12h": 16.453145978,
+   "mean_excess_12-18h": 3.9650607639,
+   "mean_excess_18-24h next": 5.0029195602
+  }
+ ],
+ "festival_regression": [
+  {
+   "festival": "Diwali",
+   "two_day_effect": 53.708799682,
+   "ci_low": -32.9170220589,
+   "ci_high": 140.334621423,
+   "p_value": 0.224283003,
+   "share_of_oct_nov": 0.0048995001,
+   "share_ci_low": -0.0030028031,
+   "share_ci_high": 0.0128018033
+  },
+  {
+   "festival": "Dussehra",
+   "two_day_effect": -6.7549763277,
+   "ci_low": -36.8944612788,
+   "ci_high": 23.3845086235,
+   "p_value": 0.6604567254,
+   "share_of_oct_nov": -0.000616212,
+   "share_ci_low": -0.0033656387,
+   "share_ci_high": 0.0021332147
+  }
+ ],
+ "weather": {
+  "within_week_sd": 21.771703641564045,
+  "p10": -26.204542606703342,
+  "p90": 26.89866347279439,
+  "p90_minus_p10": 53.10320607949773,
+  "oct_nov_mean_pm25": 179.70652294185058,
+  "p90_minus_p10_pct_of_mean": 0.2954996024083158
+ },
+ "composition": [
+  {
+   "component": "Punjab-Haryana crop fires",
+   "share": 0.147083236,
+   "low": 0.0737284797,
+   "high": 0.2204379924,
+   "basis": "measured, 2018-2025"
+  },
+  {
+   "component": "Diwali (2 days)",
+   "share": 0.0048995001,
+   "low": -0.0030028031,
+   "high": 0.0128018033,
+   "basis": "measured, 2018-2025"
+  },
+  {
+   "component": "Dussehra (2 days)",
+   "share": -0.000616212,
+   "low": -0.0033656387,
+   "high": 0.0021332147,
+   "basis": "measured, 2018-2025"
+  },
+  {
+   "component": "Delhi's own emissions",
+   "share": 0.36,
+   "low": 0.26,
+   "high": 0.5,
+   "basis": "assumption: TERI-ARAI 2018 winter share"
+  },
+  {
+   "component": "Rest: NCR, other regional and secondary aerosol",
+   "share": 0.4886334759,
+   "low": null,
+   "high": null,
+   "basis": "remainder"
+  }
+ ],
+ "grap": [
+  {
+   "season": "2024-25",
+   "actual_stage_III": "2024-11-15T00:00:00.000",
+   "earlier_start": "2024-09-01T00:00:00.000",
+   "days_earlier": 75,
+   "window_mean_pm25": 121.7160766531,
+   "best_ug_per_day": 11.5353112054,
+   "best_pct_of_window": 0.0947722891,
+   "best_pct_of_sep_jan": 0.034277227,
+   "point_ug_per_day": -14.3577809684,
+   "point_pct_of_window": -0.1179612535,
+   "point_pct_of_sep_jan": -0.0426642081,
+   "worst_ug_per_day": -31.2925995465,
+   "worst_pct_of_window": -0.2570950396,
+   "worst_pct_of_sep_jan": -0.0929860945
+  },
+  {
+   "season": "2024-25",
+   "actual_stage_III": "2024-11-15T00:00:00.000",
+   "earlier_start": "2024-10-01T00:00:00.000",
+   "days_earlier": 45,
+   "window_mean_pm25": 171.3148105952,
+   "best_ug_per_day": 16.1975921959,
+   "best_pct_of_window": 0.0945486975,
+   "best_pct_of_sep_jan": 0.028878729,
+   "point_ug_per_day": -20.1608328396,
+   "point_pct_of_window": -0.1176829532,
+   "point_pct_of_sep_jan": -0.035944801,
+   "worst_ug_per_day": -43.9402767018,
+   "worst_pct_of_window": -0.2564884878,
+   "worst_pct_of_sep_jan": -0.078341233
+  },
+  {
+   "season": "2025-26",
+   "actual_stage_III": "2025-11-12T00:00:00.000",
+   "earlier_start": "2025-09-01T00:00:00.000",
+   "days_earlier": 72,
+   "window_mean_pm25": 106.3107298808,
+   "best_ug_per_day": 10.0872086088,
+   "best_pct_of_window": 0.0948842005,
+   "best_pct_of_sep_jan": 0.036927836,
+   "point_ug_per_day": -12.5553553961,
+   "point_pct_of_window": -0.1181005474,
+   "point_pct_of_sep_jan": -0.0459633703,
+   "worst_ug_per_day": -27.3642361196,
+   "worst_pct_of_window": -0.257398629,
+   "worst_pct_of_sep_jan": -0.1001765763
+  },
+  {
+   "season": "2025-26",
+   "actual_stage_III": "2025-11-12T00:00:00.000",
+   "earlier_start": "2025-10-01T00:00:00.000",
+   "days_earlier": 42,
+   "window_mean_pm25": 151.6420760763,
+   "best_ug_per_day": 14.3483551512,
+   "best_pct_of_window": 0.0946198807,
+   "best_pct_of_sep_jan": 0.0306409176,
+   "point_ug_per_day": -17.8591229009,
+   "point_pct_of_window": -0.1177715537,
+   "point_pct_of_sep_jan": -0.0381381635,
+   "worst_ug_per_day": -38.9237293995,
+   "worst_pct_of_window": -0.2566815913,
+   "worst_pct_of_sep_jan": -0.0831216383
+  }
+ ],
+ "curve": [
+  {
+   "year": 2018,
+   "emission_cut": 0.0,
+   "delhi_share": "low",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.0,
+   "delhi_share": "central",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.0,
+   "delhi_share": "high",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.05,
+   "delhi_share": "low",
+   "ug_reduction_october": 1.6799662359,
+   "pct_reduction_october": 0.013,
+   "pct_of_oct_jan": 0.0021737321
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.05,
+   "delhi_share": "central",
+   "ug_reduction_october": 2.3261070958,
+   "pct_reduction_october": 0.018,
+   "pct_of_oct_jan": 0.0030097829
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.05,
+   "delhi_share": "high",
+   "ug_reduction_october": 3.2307042997,
+   "pct_reduction_october": 0.025,
+   "pct_of_oct_jan": 0.004180254
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.1,
+   "delhi_share": "low",
+   "ug_reduction_october": 3.3599324717,
+   "pct_reduction_october": 0.026,
+   "pct_of_oct_jan": 0.0043474641
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.1,
+   "delhi_share": "central",
+   "ug_reduction_october": 4.6522141916,
+   "pct_reduction_october": 0.036,
+   "pct_of_oct_jan": 0.0060195657
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.1,
+   "delhi_share": "high",
+   "ug_reduction_october": 6.4614085995,
+   "pct_reduction_october": 0.05,
+   "pct_of_oct_jan": 0.0083605079
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.15,
+   "delhi_share": "low",
+   "ug_reduction_october": 5.0398987076,
+   "pct_reduction_october": 0.039,
+   "pct_of_oct_jan": 0.0065211962
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.15,
+   "delhi_share": "central",
+   "ug_reduction_october": 6.9783212875,
+   "pct_reduction_october": 0.054,
+   "pct_of_oct_jan": 0.0090293486
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.15,
+   "delhi_share": "high",
+   "ug_reduction_october": 9.6921128992,
+   "pct_reduction_october": 0.075,
+   "pct_of_oct_jan": 0.0125407619
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.2,
+   "delhi_share": "low",
+   "ug_reduction_october": 6.7198649435,
+   "pct_reduction_october": 0.052,
+   "pct_of_oct_jan": 0.0086949282
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.2,
+   "delhi_share": "central",
+   "ug_reduction_october": 9.3044283833,
+   "pct_reduction_october": 0.072,
+   "pct_of_oct_jan": 0.0120391314
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.2,
+   "delhi_share": "high",
+   "ug_reduction_october": 12.922817199,
+   "pct_reduction_october": 0.1,
+   "pct_of_oct_jan": 0.0167210158
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.25,
+   "delhi_share": "low",
+   "ug_reduction_october": 8.3998311793,
+   "pct_reduction_october": 0.065,
+   "pct_of_oct_jan": 0.0108686603
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.25,
+   "delhi_share": "central",
+   "ug_reduction_october": 11.6305354791,
+   "pct_reduction_october": 0.09,
+   "pct_of_oct_jan": 0.0150489143
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.25,
+   "delhi_share": "high",
+   "ug_reduction_october": 16.1535214987,
+   "pct_reduction_october": 0.125,
+   "pct_of_oct_jan": 0.0209012698
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.3,
+   "delhi_share": "low",
+   "ug_reduction_october": 10.0797974152,
+   "pct_reduction_october": 0.078,
+   "pct_of_oct_jan": 0.0130423924
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.3,
+   "delhi_share": "central",
+   "ug_reduction_october": 13.9566425749,
+   "pct_reduction_october": 0.108,
+   "pct_of_oct_jan": 0.0180586971
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.3,
+   "delhi_share": "high",
+   "ug_reduction_october": 19.3842257985,
+   "pct_reduction_october": 0.15,
+   "pct_of_oct_jan": 0.0250815238
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.35,
+   "delhi_share": "low",
+   "ug_reduction_october": 11.7597636511,
+   "pct_reduction_october": 0.091,
+   "pct_of_oct_jan": 0.0152161244
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.35,
+   "delhi_share": "central",
+   "ug_reduction_october": 16.2827496707,
+   "pct_reduction_october": 0.126,
+   "pct_of_oct_jan": 0.02106848
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.35,
+   "delhi_share": "high",
+   "ug_reduction_october": 22.6149300982,
+   "pct_reduction_october": 0.175,
+   "pct_of_oct_jan": 0.0292617777
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.4,
+   "delhi_share": "low",
+   "ug_reduction_october": 13.4397298869,
+   "pct_reduction_october": 0.104,
+   "pct_of_oct_jan": 0.0173898565
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.4,
+   "delhi_share": "central",
+   "ug_reduction_october": 18.6088567665,
+   "pct_reduction_october": 0.144,
+   "pct_of_oct_jan": 0.0240782628
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.4,
+   "delhi_share": "high",
+   "ug_reduction_october": 25.845634398,
+   "pct_reduction_october": 0.2,
+   "pct_of_oct_jan": 0.0334420317
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.45,
+   "delhi_share": "low",
+   "ug_reduction_october": 15.1196961228,
+   "pct_reduction_october": 0.117,
+   "pct_of_oct_jan": 0.0195635885
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.45,
+   "delhi_share": "central",
+   "ug_reduction_october": 20.9349638624,
+   "pct_reduction_october": 0.162,
+   "pct_of_oct_jan": 0.0270880457
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.45,
+   "delhi_share": "high",
+   "ug_reduction_october": 29.0763386977,
+   "pct_reduction_october": 0.225,
+   "pct_of_oct_jan": 0.0376222856
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.5,
+   "delhi_share": "low",
+   "ug_reduction_october": 16.7996623587,
+   "pct_reduction_october": 0.13,
+   "pct_of_oct_jan": 0.0217373206
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.5,
+   "delhi_share": "central",
+   "ug_reduction_october": 23.2610709582,
+   "pct_reduction_october": 0.18,
+   "pct_of_oct_jan": 0.0300978285
+  },
+  {
+   "year": 2018,
+   "emission_cut": 0.5,
+   "delhi_share": "high",
+   "ug_reduction_october": 32.3070429975,
+   "pct_reduction_october": 0.25,
+   "pct_of_oct_jan": 0.0418025396
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.0,
+   "delhi_share": "low",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.0,
+   "delhi_share": "central",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.0,
+   "delhi_share": "high",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.05,
+   "delhi_share": "low",
+   "ug_reduction_october": 1.8174127684,
+   "pct_reduction_october": 0.013,
+   "pct_of_oct_jan": 0.0024768751
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.05,
+   "delhi_share": "central",
+   "ug_reduction_october": 2.5164176793,
+   "pct_reduction_october": 0.018,
+   "pct_of_oct_jan": 0.0034295193
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.05,
+   "delhi_share": "high",
+   "ug_reduction_october": 3.4950245546,
+   "pct_reduction_october": 0.025,
+   "pct_of_oct_jan": 0.0047632213
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.1,
+   "delhi_share": "low",
+   "ug_reduction_october": 3.6348255368,
+   "pct_reduction_october": 0.026,
+   "pct_of_oct_jan": 0.0049537501
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.1,
+   "delhi_share": "central",
+   "ug_reduction_october": 5.0328353587,
+   "pct_reduction_october": 0.036,
+   "pct_of_oct_jan": 0.0068590387
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.1,
+   "delhi_share": "high",
+   "ug_reduction_october": 6.9900491093,
+   "pct_reduction_october": 0.05,
+   "pct_of_oct_jan": 0.0095264426
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.15,
+   "delhi_share": "low",
+   "ug_reduction_october": 5.4522383052,
+   "pct_reduction_october": 0.039,
+   "pct_of_oct_jan": 0.0074306252
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.15,
+   "delhi_share": "central",
+   "ug_reduction_october": 7.549253038,
+   "pct_reduction_october": 0.054,
+   "pct_of_oct_jan": 0.010288558
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.15,
+   "delhi_share": "high",
+   "ug_reduction_october": 10.4850736639,
+   "pct_reduction_october": 0.075,
+   "pct_of_oct_jan": 0.0142896639
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.2,
+   "delhi_share": "low",
+   "ug_reduction_october": 7.2696510736,
+   "pct_reduction_october": 0.052,
+   "pct_of_oct_jan": 0.0099075003
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.2,
+   "delhi_share": "central",
+   "ug_reduction_october": 10.0656707173,
+   "pct_reduction_october": 0.072,
+   "pct_of_oct_jan": 0.0137180773
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.2,
+   "delhi_share": "high",
+   "ug_reduction_october": 13.9800982185,
+   "pct_reduction_october": 0.1,
+   "pct_of_oct_jan": 0.0190528852
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.25,
+   "delhi_share": "low",
+   "ug_reduction_october": 9.087063842,
+   "pct_reduction_october": 0.065,
+   "pct_of_oct_jan": 0.0123843754
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.25,
+   "delhi_share": "central",
+   "ug_reduction_october": 12.5820883967,
+   "pct_reduction_october": 0.09,
+   "pct_of_oct_jan": 0.0171475967
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.25,
+   "delhi_share": "high",
+   "ug_reduction_october": 17.4751227732,
+   "pct_reduction_october": 0.125,
+   "pct_of_oct_jan": 0.0238161065
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.3,
+   "delhi_share": "low",
+   "ug_reduction_october": 10.9044766104,
+   "pct_reduction_october": 0.078,
+   "pct_of_oct_jan": 0.0148612504
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.3,
+   "delhi_share": "central",
+   "ug_reduction_october": 15.098506076,
+   "pct_reduction_october": 0.108,
+   "pct_of_oct_jan": 0.020577116
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.3,
+   "delhi_share": "high",
+   "ug_reduction_october": 20.9701473278,
+   "pct_reduction_october": 0.15,
+   "pct_of_oct_jan": 0.0285793278
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.35,
+   "delhi_share": "low",
+   "ug_reduction_october": 12.7218893789,
+   "pct_reduction_october": 0.091,
+   "pct_of_oct_jan": 0.0173381255
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.35,
+   "delhi_share": "central",
+   "ug_reduction_october": 17.6149237553,
+   "pct_reduction_october": 0.126,
+   "pct_of_oct_jan": 0.0240066353
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.35,
+   "delhi_share": "high",
+   "ug_reduction_october": 24.4651718824,
+   "pct_reduction_october": 0.175,
+   "pct_of_oct_jan": 0.0333425491
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.4,
+   "delhi_share": "low",
+   "ug_reduction_october": 14.5393021473,
+   "pct_reduction_october": 0.104,
+   "pct_of_oct_jan": 0.0198150006
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.4,
+   "delhi_share": "central",
+   "ug_reduction_october": 20.1313414347,
+   "pct_reduction_october": 0.144,
+   "pct_of_oct_jan": 0.0274361547
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.4,
+   "delhi_share": "high",
+   "ug_reduction_october": 27.960196437,
+   "pct_reduction_october": 0.2,
+   "pct_of_oct_jan": 0.0381057704
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.45,
+   "delhi_share": "low",
+   "ug_reduction_october": 16.3567149157,
+   "pct_reduction_october": 0.117,
+   "pct_of_oct_jan": 0.0222918757
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.45,
+   "delhi_share": "central",
+   "ug_reduction_october": 22.647759114,
+   "pct_reduction_october": 0.162,
+   "pct_of_oct_jan": 0.030865674
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.45,
+   "delhi_share": "high",
+   "ug_reduction_october": 31.4552209917,
+   "pct_reduction_october": 0.225,
+   "pct_of_oct_jan": 0.0428689916
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.5,
+   "delhi_share": "low",
+   "ug_reduction_october": 18.1741276841,
+   "pct_reduction_october": 0.13,
+   "pct_of_oct_jan": 0.0247687507
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.5,
+   "delhi_share": "central",
+   "ug_reduction_october": 25.1641767933,
+   "pct_reduction_october": 0.18,
+   "pct_of_oct_jan": 0.0342951933
+  },
+  {
+   "year": 2019,
+   "emission_cut": 0.5,
+   "delhi_share": "high",
+   "ug_reduction_october": 34.9502455463,
+   "pct_reduction_october": 0.25,
+   "pct_of_oct_jan": 0.0476322129
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.0,
+   "delhi_share": "low",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.0,
+   "delhi_share": "central",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.0,
+   "delhi_share": "high",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.05,
+   "delhi_share": "low",
+   "ug_reduction_october": 1.9342569557,
+   "pct_reduction_october": 0.013,
+   "pct_of_oct_jan": 0.0024167755
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.05,
+   "delhi_share": "central",
+   "ug_reduction_october": 2.6782019386,
+   "pct_reduction_october": 0.018,
+   "pct_of_oct_jan": 0.0033463045
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.05,
+   "delhi_share": "high",
+   "ug_reduction_october": 3.7197249147,
+   "pct_reduction_october": 0.025,
+   "pct_of_oct_jan": 0.0046476452
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.1,
+   "delhi_share": "low",
+   "ug_reduction_october": 3.8685139113,
+   "pct_reduction_october": 0.026,
+   "pct_of_oct_jan": 0.004833551
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.1,
+   "delhi_share": "central",
+   "ug_reduction_october": 5.3564038772,
+   "pct_reduction_october": 0.036,
+   "pct_of_oct_jan": 0.0066926091
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.1,
+   "delhi_share": "high",
+   "ug_reduction_october": 7.4394498295,
+   "pct_reduction_october": 0.05,
+   "pct_of_oct_jan": 0.0092952904
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.15,
+   "delhi_share": "low",
+   "ug_reduction_october": 5.802770867,
+   "pct_reduction_october": 0.039,
+   "pct_of_oct_jan": 0.0072503265
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.15,
+   "delhi_share": "central",
+   "ug_reduction_october": 8.0346058158,
+   "pct_reduction_october": 0.054,
+   "pct_of_oct_jan": 0.0100389136
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.15,
+   "delhi_share": "high",
+   "ug_reduction_october": 11.1591747442,
+   "pct_reduction_october": 0.075,
+   "pct_of_oct_jan": 0.0139429356
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.2,
+   "delhi_share": "low",
+   "ug_reduction_october": 7.7370278227,
+   "pct_reduction_october": 0.052,
+   "pct_of_oct_jan": 0.009667102
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.2,
+   "delhi_share": "central",
+   "ug_reduction_october": 10.7128077545,
+   "pct_reduction_october": 0.072,
+   "pct_of_oct_jan": 0.0133852181
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.2,
+   "delhi_share": "high",
+   "ug_reduction_october": 14.878899659,
+   "pct_reduction_october": 0.1,
+   "pct_of_oct_jan": 0.0185905808
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.25,
+   "delhi_share": "low",
+   "ug_reduction_october": 9.6712847783,
+   "pct_reduction_october": 0.065,
+   "pct_of_oct_jan": 0.0120838775
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.25,
+   "delhi_share": "central",
+   "ug_reduction_october": 13.3910096931,
+   "pct_reduction_october": 0.09,
+   "pct_of_oct_jan": 0.0167315227
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.25,
+   "delhi_share": "high",
+   "ug_reduction_october": 18.5986245737,
+   "pct_reduction_october": 0.125,
+   "pct_of_oct_jan": 0.0232382259
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.3,
+   "delhi_share": "low",
+   "ug_reduction_october": 11.605541734,
+   "pct_reduction_october": 0.078,
+   "pct_of_oct_jan": 0.014500653
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.3,
+   "delhi_share": "central",
+   "ug_reduction_october": 16.0692116317,
+   "pct_reduction_october": 0.108,
+   "pct_of_oct_jan": 0.0200778272
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.3,
+   "delhi_share": "high",
+   "ug_reduction_october": 22.3183494885,
+   "pct_reduction_october": 0.15,
+   "pct_of_oct_jan": 0.0278858711
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.35,
+   "delhi_share": "low",
+   "ug_reduction_october": 13.5397986897,
+   "pct_reduction_october": 0.091,
+   "pct_of_oct_jan": 0.0169174285
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.35,
+   "delhi_share": "central",
+   "ug_reduction_october": 18.7474135703,
+   "pct_reduction_october": 0.126,
+   "pct_of_oct_jan": 0.0234241318
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.35,
+   "delhi_share": "high",
+   "ug_reduction_october": 26.0380744032,
+   "pct_reduction_october": 0.175,
+   "pct_of_oct_jan": 0.0325335163
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.4,
+   "delhi_share": "low",
+   "ug_reduction_october": 15.4740556453,
+   "pct_reduction_october": 0.104,
+   "pct_of_oct_jan": 0.019334204
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.4,
+   "delhi_share": "central",
+   "ug_reduction_october": 21.4256155089,
+   "pct_reduction_october": 0.144,
+   "pct_of_oct_jan": 0.0267704363
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.4,
+   "delhi_share": "high",
+   "ug_reduction_october": 29.7577993179,
+   "pct_reduction_october": 0.2,
+   "pct_of_oct_jan": 0.0371811615
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.45,
+   "delhi_share": "low",
+   "ug_reduction_october": 17.408312601,
+   "pct_reduction_october": 0.117,
+   "pct_of_oct_jan": 0.0217509795
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.45,
+   "delhi_share": "central",
+   "ug_reduction_october": 24.1038174475,
+   "pct_reduction_october": 0.162,
+   "pct_of_oct_jan": 0.0301167408
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.45,
+   "delhi_share": "high",
+   "ug_reduction_october": 33.4775242327,
+   "pct_reduction_october": 0.225,
+   "pct_of_oct_jan": 0.0418288067
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.5,
+   "delhi_share": "low",
+   "ug_reduction_october": 19.3425695567,
+   "pct_reduction_october": 0.13,
+   "pct_of_oct_jan": 0.024167755
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.5,
+   "delhi_share": "central",
+   "ug_reduction_october": 26.7820193861,
+   "pct_reduction_october": 0.18,
+   "pct_of_oct_jan": 0.0334630454
+  },
+  {
+   "year": 2020,
+   "emission_cut": 0.5,
+   "delhi_share": "high",
+   "ug_reduction_october": 37.1972491474,
+   "pct_reduction_october": 0.25,
+   "pct_of_oct_jan": 0.0464764519
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.0,
+   "delhi_share": "low",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.0,
+   "delhi_share": "central",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.0,
+   "delhi_share": "high",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.05,
+   "delhi_share": "low",
+   "ug_reduction_october": 1.0517393262,
+   "pct_reduction_october": 0.013,
+   "pct_of_oct_jan": 0.0014937187
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.05,
+   "delhi_share": "central",
+   "ug_reduction_october": 1.4562544517,
+   "pct_reduction_october": 0.018,
+   "pct_of_oct_jan": 0.0020682259
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.05,
+   "delhi_share": "high",
+   "ug_reduction_october": 2.0225756273,
+   "pct_reduction_october": 0.025,
+   "pct_of_oct_jan": 0.0028725359
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.1,
+   "delhi_share": "low",
+   "ug_reduction_october": 2.1034786524,
+   "pct_reduction_october": 0.026,
+   "pct_of_oct_jan": 0.0029874374
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.1,
+   "delhi_share": "central",
+   "ug_reduction_october": 2.9125089033,
+   "pct_reduction_october": 0.036,
+   "pct_of_oct_jan": 0.0041364517
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.1,
+   "delhi_share": "high",
+   "ug_reduction_october": 4.0451512546,
+   "pct_reduction_october": 0.05,
+   "pct_of_oct_jan": 0.0057450719
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.15,
+   "delhi_share": "low",
+   "ug_reduction_october": 3.1552179786,
+   "pct_reduction_october": 0.039,
+   "pct_of_oct_jan": 0.0044811561
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.15,
+   "delhi_share": "central",
+   "ug_reduction_october": 4.368763355,
+   "pct_reduction_october": 0.054,
+   "pct_of_oct_jan": 0.0062046776
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.15,
+   "delhi_share": "high",
+   "ug_reduction_october": 6.0677268819,
+   "pct_reduction_october": 0.075,
+   "pct_of_oct_jan": 0.0086176078
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.2,
+   "delhi_share": "low",
+   "ug_reduction_october": 4.2069573048,
+   "pct_reduction_october": 0.052,
+   "pct_of_oct_jan": 0.0059748747
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.2,
+   "delhi_share": "central",
+   "ug_reduction_october": 5.8250178066,
+   "pct_reduction_october": 0.072,
+   "pct_of_oct_jan": 0.0082729035
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.2,
+   "delhi_share": "high",
+   "ug_reduction_october": 8.0903025092,
+   "pct_reduction_october": 0.1,
+   "pct_of_oct_jan": 0.0114901437
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.25,
+   "delhi_share": "low",
+   "ug_reduction_october": 5.258696631,
+   "pct_reduction_october": 0.065,
+   "pct_of_oct_jan": 0.0074685934
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.25,
+   "delhi_share": "central",
+   "ug_reduction_october": 7.2812722583,
+   "pct_reduction_october": 0.09,
+   "pct_of_oct_jan": 0.0103411293
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.25,
+   "delhi_share": "high",
+   "ug_reduction_october": 10.1128781365,
+   "pct_reduction_october": 0.125,
+   "pct_of_oct_jan": 0.0143626796
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.3,
+   "delhi_share": "low",
+   "ug_reduction_october": 6.3104359572,
+   "pct_reduction_october": 0.078,
+   "pct_of_oct_jan": 0.0089623121
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.3,
+   "delhi_share": "central",
+   "ug_reduction_october": 8.7375267099,
+   "pct_reduction_october": 0.108,
+   "pct_of_oct_jan": 0.0124093552
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.3,
+   "delhi_share": "high",
+   "ug_reduction_october": 12.1354537638,
+   "pct_reduction_october": 0.15,
+   "pct_of_oct_jan": 0.0172352156
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.35,
+   "delhi_share": "low",
+   "ug_reduction_october": 7.3621752833,
+   "pct_reduction_october": 0.091,
+   "pct_of_oct_jan": 0.0104560308
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.35,
+   "delhi_share": "central",
+   "ug_reduction_october": 10.1937811616,
+   "pct_reduction_october": 0.126,
+   "pct_of_oct_jan": 0.0144775811
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.35,
+   "delhi_share": "high",
+   "ug_reduction_october": 14.158029391,
+   "pct_reduction_october": 0.175,
+   "pct_of_oct_jan": 0.0201077515
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.4,
+   "delhi_share": "low",
+   "ug_reduction_october": 8.4139146095,
+   "pct_reduction_october": 0.104,
+   "pct_of_oct_jan": 0.0119497495
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.4,
+   "delhi_share": "central",
+   "ug_reduction_october": 11.6500356132,
+   "pct_reduction_october": 0.144,
+   "pct_of_oct_jan": 0.016545807
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.4,
+   "delhi_share": "high",
+   "ug_reduction_october": 16.1806050183,
+   "pct_reduction_october": 0.2,
+   "pct_of_oct_jan": 0.0229802874
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.45,
+   "delhi_share": "low",
+   "ug_reduction_october": 9.4656539357,
+   "pct_reduction_october": 0.117,
+   "pct_of_oct_jan": 0.0134434682
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.45,
+   "delhi_share": "central",
+   "ug_reduction_october": 13.1062900649,
+   "pct_reduction_october": 0.162,
+   "pct_of_oct_jan": 0.0186140328
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.45,
+   "delhi_share": "high",
+   "ug_reduction_october": 18.2031806456,
+   "pct_reduction_october": 0.225,
+   "pct_of_oct_jan": 0.0258528234
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.5,
+   "delhi_share": "low",
+   "ug_reduction_october": 10.5173932619,
+   "pct_reduction_october": 0.13,
+   "pct_of_oct_jan": 0.0149371868
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.5,
+   "delhi_share": "central",
+   "ug_reduction_october": 14.5625445165,
+   "pct_reduction_october": 0.18,
+   "pct_of_oct_jan": 0.0206822587
+  },
+  {
+   "year": 2021,
+   "emission_cut": 0.5,
+   "delhi_share": "high",
+   "ug_reduction_october": 20.2257562729,
+   "pct_reduction_october": 0.25,
+   "pct_of_oct_jan": 0.0287253593
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.0,
+   "delhi_share": "low",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.0,
+   "delhi_share": "central",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.0,
+   "delhi_share": "high",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.05,
+   "delhi_share": "low",
+   "ug_reduction_october": 1.4457619545,
+   "pct_reduction_october": 0.013,
+   "pct_of_oct_jan": 0.0021944285
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.05,
+   "delhi_share": "central",
+   "ug_reduction_october": 2.0018242447,
+   "pct_reduction_october": 0.018,
+   "pct_of_oct_jan": 0.0030384395
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.05,
+   "delhi_share": "high",
+   "ug_reduction_october": 2.7803114509,
+   "pct_reduction_october": 0.025,
+   "pct_of_oct_jan": 0.0042200548
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.1,
+   "delhi_share": "low",
+   "ug_reduction_october": 2.891523909,
+   "pct_reduction_october": 0.026,
+   "pct_of_oct_jan": 0.004388857
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.1,
+   "delhi_share": "central",
+   "ug_reduction_october": 4.0036484893,
+   "pct_reduction_october": 0.036,
+   "pct_of_oct_jan": 0.0060768789
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.1,
+   "delhi_share": "high",
+   "ug_reduction_october": 5.5606229018,
+   "pct_reduction_october": 0.05,
+   "pct_of_oct_jan": 0.0084401096
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.15,
+   "delhi_share": "low",
+   "ug_reduction_october": 4.3372858634,
+   "pct_reduction_october": 0.039,
+   "pct_of_oct_jan": 0.0065832855
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.15,
+   "delhi_share": "central",
+   "ug_reduction_october": 6.005472734,
+   "pct_reduction_october": 0.054,
+   "pct_of_oct_jan": 0.0091153184
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.15,
+   "delhi_share": "high",
+   "ug_reduction_october": 8.3409343528,
+   "pct_reduction_october": 0.075,
+   "pct_of_oct_jan": 0.0126601644
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.2,
+   "delhi_share": "low",
+   "ug_reduction_october": 5.7830478179,
+   "pct_reduction_october": 0.052,
+   "pct_of_oct_jan": 0.008777714
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.2,
+   "delhi_share": "central",
+   "ug_reduction_october": 8.0072969787,
+   "pct_reduction_october": 0.072,
+   "pct_of_oct_jan": 0.0121537578
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.2,
+   "delhi_share": "high",
+   "ug_reduction_october": 11.1212458037,
+   "pct_reduction_october": 0.1,
+   "pct_of_oct_jan": 0.0168802192
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.25,
+   "delhi_share": "low",
+   "ug_reduction_october": 7.2288097724,
+   "pct_reduction_october": 0.065,
+   "pct_of_oct_jan": 0.0109721425
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.25,
+   "delhi_share": "central",
+   "ug_reduction_october": 10.0091212233,
+   "pct_reduction_october": 0.09,
+   "pct_of_oct_jan": 0.0151921973
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.25,
+   "delhi_share": "high",
+   "ug_reduction_october": 13.9015572546,
+   "pct_reduction_october": 0.125,
+   "pct_of_oct_jan": 0.021100274
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.3,
+   "delhi_share": "low",
+   "ug_reduction_october": 8.6745717269,
+   "pct_reduction_october": 0.078,
+   "pct_of_oct_jan": 0.013166571
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.3,
+   "delhi_share": "central",
+   "ug_reduction_october": 12.010945468,
+   "pct_reduction_october": 0.108,
+   "pct_of_oct_jan": 0.0182306368
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.3,
+   "delhi_share": "high",
+   "ug_reduction_october": 16.6818687055,
+   "pct_reduction_october": 0.15,
+   "pct_of_oct_jan": 0.0253203288
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.35,
+   "delhi_share": "low",
+   "ug_reduction_october": 10.1203336814,
+   "pct_reduction_october": 0.091,
+   "pct_of_oct_jan": 0.0153609995
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.35,
+   "delhi_share": "central",
+   "ug_reduction_october": 14.0127697126,
+   "pct_reduction_october": 0.126,
+   "pct_of_oct_jan": 0.0212690762
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.35,
+   "delhi_share": "high",
+   "ug_reduction_october": 19.4621801564,
+   "pct_reduction_october": 0.175,
+   "pct_of_oct_jan": 0.0295403837
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.4,
+   "delhi_share": "low",
+   "ug_reduction_october": 11.5660956358,
+   "pct_reduction_october": 0.104,
+   "pct_of_oct_jan": 0.017555428
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.4,
+   "delhi_share": "central",
+   "ug_reduction_october": 16.0145939573,
+   "pct_reduction_october": 0.144,
+   "pct_of_oct_jan": 0.0243075157
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.4,
+   "delhi_share": "high",
+   "ug_reduction_october": 22.2424916074,
+   "pct_reduction_october": 0.2,
+   "pct_of_oct_jan": 0.0337604385
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.45,
+   "delhi_share": "low",
+   "ug_reduction_october": 13.0118575903,
+   "pct_reduction_october": 0.117,
+   "pct_of_oct_jan": 0.0197498565
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.45,
+   "delhi_share": "central",
+   "ug_reduction_october": 18.016418202,
+   "pct_reduction_october": 0.162,
+   "pct_of_oct_jan": 0.0273459552
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.45,
+   "delhi_share": "high",
+   "ug_reduction_october": 25.0228030583,
+   "pct_reduction_october": 0.225,
+   "pct_of_oct_jan": 0.0379804933
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.5,
+   "delhi_share": "low",
+   "ug_reduction_october": 14.4576195448,
+   "pct_reduction_october": 0.13,
+   "pct_of_oct_jan": 0.021944285
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.5,
+   "delhi_share": "central",
+   "ug_reduction_october": 20.0182424466,
+   "pct_reduction_october": 0.18,
+   "pct_of_oct_jan": 0.0303843946
+  },
+  {
+   "year": 2022,
+   "emission_cut": 0.5,
+   "delhi_share": "high",
+   "ug_reduction_october": 27.8031145092,
+   "pct_reduction_october": 0.25,
+   "pct_of_oct_jan": 0.0422005481
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.0,
+   "delhi_share": "low",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.0,
+   "delhi_share": "central",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.0,
+   "delhi_share": "high",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.05,
+   "delhi_share": "low",
+   "ug_reduction_october": 1.5602109058,
+   "pct_reduction_october": 0.013,
+   "pct_of_oct_jan": 0.0018524333
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.05,
+   "delhi_share": "central",
+   "ug_reduction_october": 2.1602920234,
+   "pct_reduction_october": 0.018,
+   "pct_of_oct_jan": 0.0025649077
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.05,
+   "delhi_share": "high",
+   "ug_reduction_october": 3.000405588,
+   "pct_reduction_october": 0.025,
+   "pct_of_oct_jan": 0.0035623718
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.1,
+   "delhi_share": "low",
+   "ug_reduction_october": 3.1204218115,
+   "pct_reduction_october": 0.026,
+   "pct_of_oct_jan": 0.0037048666
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.1,
+   "delhi_share": "central",
+   "ug_reduction_october": 4.3205840467,
+   "pct_reduction_october": 0.036,
+   "pct_of_oct_jan": 0.0051298153
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.1,
+   "delhi_share": "high",
+   "ug_reduction_october": 6.000811176,
+   "pct_reduction_october": 0.05,
+   "pct_of_oct_jan": 0.0071247435
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.15,
+   "delhi_share": "low",
+   "ug_reduction_october": 4.6806327173,
+   "pct_reduction_october": 0.039,
+   "pct_of_oct_jan": 0.0055573
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.15,
+   "delhi_share": "central",
+   "ug_reduction_october": 6.4808760701,
+   "pct_reduction_october": 0.054,
+   "pct_of_oct_jan": 0.007694723
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.15,
+   "delhi_share": "high",
+   "ug_reduction_october": 9.001216764,
+   "pct_reduction_october": 0.075,
+   "pct_of_oct_jan": 0.0106871153
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.2,
+   "delhi_share": "low",
+   "ug_reduction_october": 6.240843623,
+   "pct_reduction_october": 0.052,
+   "pct_of_oct_jan": 0.0074097333
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.2,
+   "delhi_share": "central",
+   "ug_reduction_october": 8.6411680934,
+   "pct_reduction_october": 0.072,
+   "pct_of_oct_jan": 0.0102596307
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.2,
+   "delhi_share": "high",
+   "ug_reduction_october": 12.001622352,
+   "pct_reduction_october": 0.1,
+   "pct_of_oct_jan": 0.0142494871
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.25,
+   "delhi_share": "low",
+   "ug_reduction_october": 7.8010545288,
+   "pct_reduction_october": 0.065,
+   "pct_of_oct_jan": 0.0092621666
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.25,
+   "delhi_share": "central",
+   "ug_reduction_october": 10.8014601168,
+   "pct_reduction_october": 0.09,
+   "pct_of_oct_jan": 0.0128245384
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.25,
+   "delhi_share": "high",
+   "ug_reduction_october": 15.00202794,
+   "pct_reduction_october": 0.125,
+   "pct_of_oct_jan": 0.0178118588
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.3,
+   "delhi_share": "low",
+   "ug_reduction_october": 9.3612654345,
+   "pct_reduction_october": 0.078,
+   "pct_of_oct_jan": 0.0111145999
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.3,
+   "delhi_share": "central",
+   "ug_reduction_october": 12.9617521401,
+   "pct_reduction_october": 0.108,
+   "pct_of_oct_jan": 0.015389446
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.3,
+   "delhi_share": "high",
+   "ug_reduction_october": 18.002433528,
+   "pct_reduction_october": 0.15,
+   "pct_of_oct_jan": 0.0213742306
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.35,
+   "delhi_share": "low",
+   "ug_reduction_october": 10.9214763403,
+   "pct_reduction_october": 0.091,
+   "pct_of_oct_jan": 0.0129670332
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.35,
+   "delhi_share": "central",
+   "ug_reduction_october": 15.1220441635,
+   "pct_reduction_october": 0.126,
+   "pct_of_oct_jan": 0.0179543537
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.35,
+   "delhi_share": "high",
+   "ug_reduction_october": 21.0028391159,
+   "pct_reduction_october": 0.175,
+   "pct_of_oct_jan": 0.0249366024
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.4,
+   "delhi_share": "low",
+   "ug_reduction_october": 12.481687246,
+   "pct_reduction_october": 0.104,
+   "pct_of_oct_jan": 0.0148194665
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.4,
+   "delhi_share": "central",
+   "ug_reduction_october": 17.2823361868,
+   "pct_reduction_october": 0.144,
+   "pct_of_oct_jan": 0.0205192614
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.4,
+   "delhi_share": "high",
+   "ug_reduction_october": 24.0032447039,
+   "pct_reduction_october": 0.2,
+   "pct_of_oct_jan": 0.0284989741
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.45,
+   "delhi_share": "low",
+   "ug_reduction_october": 14.0418981518,
+   "pct_reduction_october": 0.117,
+   "pct_of_oct_jan": 0.0166718999
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.45,
+   "delhi_share": "central",
+   "ug_reduction_october": 19.4426282102,
+   "pct_reduction_october": 0.162,
+   "pct_of_oct_jan": 0.023084169
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.45,
+   "delhi_share": "high",
+   "ug_reduction_october": 27.0036502919,
+   "pct_reduction_october": 0.225,
+   "pct_of_oct_jan": 0.0320613459
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.5,
+   "delhi_share": "low",
+   "ug_reduction_october": 15.6021090576,
+   "pct_reduction_october": 0.13,
+   "pct_of_oct_jan": 0.0185243332
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.5,
+   "delhi_share": "central",
+   "ug_reduction_october": 21.6029202335,
+   "pct_reduction_october": 0.18,
+   "pct_of_oct_jan": 0.0256490767
+  },
+  {
+   "year": 2023,
+   "emission_cut": 0.5,
+   "delhi_share": "high",
+   "ug_reduction_october": 30.0040558799,
+   "pct_reduction_october": 0.25,
+   "pct_of_oct_jan": 0.0356237177
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.0,
+   "delhi_share": "low",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.0,
+   "delhi_share": "central",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.0,
+   "delhi_share": "high",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.05,
+   "delhi_share": "low",
+   "ug_reduction_october": 1.6708431727,
+   "pct_reduction_october": 0.013,
+   "pct_of_oct_jan": 0.0021744626
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.05,
+   "delhi_share": "central",
+   "ug_reduction_october": 2.3134751623,
+   "pct_reduction_october": 0.018,
+   "pct_of_oct_jan": 0.0030107944
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.05,
+   "delhi_share": "high",
+   "ug_reduction_october": 3.2131599476,
+   "pct_reduction_october": 0.025,
+   "pct_of_oct_jan": 0.0041816588
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.1,
+   "delhi_share": "low",
+   "ug_reduction_october": 3.3416863455,
+   "pct_reduction_october": 0.026,
+   "pct_of_oct_jan": 0.0043489252
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.1,
+   "delhi_share": "central",
+   "ug_reduction_october": 4.6269503245,
+   "pct_reduction_october": 0.036,
+   "pct_of_oct_jan": 0.0060215887
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.1,
+   "delhi_share": "high",
+   "ug_reduction_october": 6.4263198952,
+   "pct_reduction_october": 0.05,
+   "pct_of_oct_jan": 0.0083633177
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.15,
+   "delhi_share": "low",
+   "ug_reduction_october": 5.0125295182,
+   "pct_reduction_october": 0.039,
+   "pct_of_oct_jan": 0.0065233878
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.15,
+   "delhi_share": "central",
+   "ug_reduction_october": 6.9404254868,
+   "pct_reduction_october": 0.054,
+   "pct_of_oct_jan": 0.0090323831
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.15,
+   "delhi_share": "high",
+   "ug_reduction_october": 9.6394798427,
+   "pct_reduction_october": 0.075,
+   "pct_of_oct_jan": 0.0125449765
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.2,
+   "delhi_share": "low",
+   "ug_reduction_october": 6.683372691,
+   "pct_reduction_october": 0.052,
+   "pct_of_oct_jan": 0.0086978504
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.2,
+   "delhi_share": "central",
+   "ug_reduction_october": 9.253900649,
+   "pct_reduction_october": 0.072,
+   "pct_of_oct_jan": 0.0120431775
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.2,
+   "delhi_share": "high",
+   "ug_reduction_october": 12.8526397903,
+   "pct_reduction_october": 0.1,
+   "pct_of_oct_jan": 0.0167266354
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.25,
+   "delhi_share": "low",
+   "ug_reduction_october": 8.3542158637,
+   "pct_reduction_october": 0.065,
+   "pct_of_oct_jan": 0.010872313
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.25,
+   "delhi_share": "central",
+   "ug_reduction_october": 11.5673758113,
+   "pct_reduction_october": 0.09,
+   "pct_of_oct_jan": 0.0150539718
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.25,
+   "delhi_share": "high",
+   "ug_reduction_october": 16.0657997379,
+   "pct_reduction_october": 0.125,
+   "pct_of_oct_jan": 0.0209082942
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.3,
+   "delhi_share": "low",
+   "ug_reduction_october": 10.0250590365,
+   "pct_reduction_october": 0.078,
+   "pct_of_oct_jan": 0.0130467756
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.3,
+   "delhi_share": "central",
+   "ug_reduction_october": 13.8808509736,
+   "pct_reduction_october": 0.108,
+   "pct_of_oct_jan": 0.0180647662
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.3,
+   "delhi_share": "high",
+   "ug_reduction_october": 19.2789596855,
+   "pct_reduction_october": 0.15,
+   "pct_of_oct_jan": 0.0250899531
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.35,
+   "delhi_share": "low",
+   "ug_reduction_october": 11.6959022092,
+   "pct_reduction_october": 0.091,
+   "pct_of_oct_jan": 0.0152212382
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.35,
+   "delhi_share": "central",
+   "ug_reduction_october": 16.1943261358,
+   "pct_reduction_october": 0.126,
+   "pct_of_oct_jan": 0.0210755606
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.35,
+   "delhi_share": "high",
+   "ug_reduction_october": 22.4921196331,
+   "pct_reduction_october": 0.175,
+   "pct_of_oct_jan": 0.0292716119
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.4,
+   "delhi_share": "low",
+   "ug_reduction_october": 13.3667453819,
+   "pct_reduction_october": 0.104,
+   "pct_of_oct_jan": 0.0173957008
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.4,
+   "delhi_share": "central",
+   "ug_reduction_october": 18.5078012981,
+   "pct_reduction_october": 0.144,
+   "pct_of_oct_jan": 0.024086355
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.4,
+   "delhi_share": "high",
+   "ug_reduction_october": 25.7052795807,
+   "pct_reduction_october": 0.2,
+   "pct_of_oct_jan": 0.0334532708
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.45,
+   "delhi_share": "low",
+   "ug_reduction_october": 15.0375885547,
+   "pct_reduction_october": 0.117,
+   "pct_of_oct_jan": 0.0195701634
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.45,
+   "delhi_share": "central",
+   "ug_reduction_october": 20.8212764603,
+   "pct_reduction_october": 0.162,
+   "pct_of_oct_jan": 0.0270971493
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.45,
+   "delhi_share": "high",
+   "ug_reduction_october": 28.9184395282,
+   "pct_reduction_october": 0.225,
+   "pct_of_oct_jan": 0.0376349296
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.5,
+   "delhi_share": "low",
+   "ug_reduction_october": 16.7084317274,
+   "pct_reduction_october": 0.13,
+   "pct_of_oct_jan": 0.021744626
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.5,
+   "delhi_share": "central",
+   "ug_reduction_october": 23.1347516226,
+   "pct_reduction_october": 0.18,
+   "pct_of_oct_jan": 0.0301079437
+  },
+  {
+   "year": 2024,
+   "emission_cut": 0.5,
+   "delhi_share": "high",
+   "ug_reduction_october": 32.1315994758,
+   "pct_reduction_october": 0.25,
+   "pct_of_oct_jan": 0.0418165885
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.0,
+   "delhi_share": "low",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.0,
+   "delhi_share": "central",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.0,
+   "delhi_share": "high",
+   "ug_reduction_october": 0.0,
+   "pct_reduction_october": 0.0,
+   "pct_of_oct_jan": 0.0
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.05,
+   "delhi_share": "low",
+   "ug_reduction_october": 1.6291586567,
+   "pct_reduction_october": 0.013,
+   "pct_of_oct_jan": 0.0027474485
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.05,
+   "delhi_share": "central",
+   "ug_reduction_october": 2.25575814,
+   "pct_reduction_october": 0.018,
+   "pct_of_oct_jan": 0.0038041595
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.05,
+   "delhi_share": "high",
+   "ug_reduction_october": 3.1329974167,
+   "pct_reduction_october": 0.025,
+   "pct_of_oct_jan": 0.0052835548
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.1,
+   "delhi_share": "low",
+   "ug_reduction_october": 3.2583173133,
+   "pct_reduction_october": 0.026,
+   "pct_of_oct_jan": 0.005494897
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.1,
+   "delhi_share": "central",
+   "ug_reduction_october": 4.51151628,
+   "pct_reduction_october": 0.036,
+   "pct_of_oct_jan": 0.0076083189
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.1,
+   "delhi_share": "high",
+   "ug_reduction_october": 6.2659948333,
+   "pct_reduction_october": 0.05,
+   "pct_of_oct_jan": 0.0105671096
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.15,
+   "delhi_share": "low",
+   "ug_reduction_october": 4.88747597,
+   "pct_reduction_october": 0.039,
+   "pct_of_oct_jan": 0.0082423455
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.15,
+   "delhi_share": "central",
+   "ug_reduction_october": 6.76727442,
+   "pct_reduction_october": 0.054,
+   "pct_of_oct_jan": 0.0114124784
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.15,
+   "delhi_share": "high",
+   "ug_reduction_october": 9.39899225,
+   "pct_reduction_october": 0.075,
+   "pct_of_oct_jan": 0.0158506644
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.2,
+   "delhi_share": "low",
+   "ug_reduction_october": 6.5166346266,
+   "pct_reduction_october": 0.052,
+   "pct_of_oct_jan": 0.010989794
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.2,
+   "delhi_share": "central",
+   "ug_reduction_october": 9.02303256,
+   "pct_reduction_october": 0.072,
+   "pct_of_oct_jan": 0.0152166379
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.2,
+   "delhi_share": "high",
+   "ug_reduction_october": 12.5319896666,
+   "pct_reduction_october": 0.1,
+   "pct_of_oct_jan": 0.0211342193
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.25,
+   "delhi_share": "low",
+   "ug_reduction_october": 8.1457932833,
+   "pct_reduction_october": 0.065,
+   "pct_of_oct_jan": 0.0137372425
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.25,
+   "delhi_share": "central",
+   "ug_reduction_october": 11.2787907,
+   "pct_reduction_october": 0.09,
+   "pct_of_oct_jan": 0.0190207973
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.25,
+   "delhi_share": "high",
+   "ug_reduction_october": 15.6649870833,
+   "pct_reduction_october": 0.125,
+   "pct_of_oct_jan": 0.0264177741
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.3,
+   "delhi_share": "low",
+   "ug_reduction_october": 9.77495194,
+   "pct_reduction_october": 0.078,
+   "pct_of_oct_jan": 0.016484691
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.3,
+   "delhi_share": "central",
+   "ug_reduction_october": 13.53454884,
+   "pct_reduction_october": 0.108,
+   "pct_of_oct_jan": 0.0228249568
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.3,
+   "delhi_share": "high",
+   "ug_reduction_october": 18.7979844999,
+   "pct_reduction_october": 0.15,
+   "pct_of_oct_jan": 0.0317013289
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.35,
+   "delhi_share": "low",
+   "ug_reduction_october": 11.4041105966,
+   "pct_reduction_october": 0.091,
+   "pct_of_oct_jan": 0.0192321395
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.35,
+   "delhi_share": "central",
+   "ug_reduction_october": 15.79030698,
+   "pct_reduction_october": 0.126,
+   "pct_of_oct_jan": 0.0266291163
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.35,
+   "delhi_share": "high",
+   "ug_reduction_october": 21.9309819166,
+   "pct_reduction_october": 0.175,
+   "pct_of_oct_jan": 0.0369848837
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.4,
+   "delhi_share": "low",
+   "ug_reduction_october": 13.0332692533,
+   "pct_reduction_october": 0.104,
+   "pct_of_oct_jan": 0.021979588
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.4,
+   "delhi_share": "central",
+   "ug_reduction_october": 18.0460651199,
+   "pct_reduction_october": 0.144,
+   "pct_of_oct_jan": 0.0304332757
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.4,
+   "delhi_share": "high",
+   "ug_reduction_october": 25.0639793333,
+   "pct_reduction_october": 0.2,
+   "pct_of_oct_jan": 0.0422684385
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.45,
+   "delhi_share": "low",
+   "ug_reduction_october": 14.66242791,
+   "pct_reduction_october": 0.117,
+   "pct_of_oct_jan": 0.0247270365
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.45,
+   "delhi_share": "central",
+   "ug_reduction_october": 20.3018232599,
+   "pct_reduction_october": 0.162,
+   "pct_of_oct_jan": 0.0342374352
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.45,
+   "delhi_share": "high",
+   "ug_reduction_october": 28.1969767499,
+   "pct_reduction_october": 0.225,
+   "pct_of_oct_jan": 0.0475519933
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.5,
+   "delhi_share": "low",
+   "ug_reduction_october": 16.2915865666,
+   "pct_reduction_october": 0.13,
+   "pct_of_oct_jan": 0.027474485
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.5,
+   "delhi_share": "central",
+   "ug_reduction_october": 22.5575813999,
+   "pct_reduction_october": 0.18,
+   "pct_of_oct_jan": 0.0380415947
+  },
+  {
+   "year": 2025,
+   "emission_cut": 0.5,
+   "delhi_share": "high",
+   "ug_reduction_october": 31.3299741666,
+   "pct_reduction_october": 0.25,
+   "pct_of_oct_jan": 0.0528355481
+  }
+ ],
+ "fire_cut": [
+  {
+   "fire_cut": 0.25,
+   "pct_lower_october": 0.0326263193,
+   "ci_low": 0.0177254846,
+   "ci_high": 0.0475271539,
+   "ug_lower_october": 4.0133877769
+  },
+  {
+   "fire_cut": 0.5,
+   "pct_lower_october": 0.0652526386,
+   "ci_low": 0.0354509692,
+   "ci_high": 0.0950543079,
+   "ug_lower_october": 8.0267755539
+  },
+  {
+   "fire_cut": 0.75,
+   "pct_lower_october": 0.0978789578,
+   "ci_low": 0.0531764539,
+   "ci_high": 0.1425814618,
+   "ug_lower_october": 12.0401633308
+  },
+  {
+   "fire_cut": 1.0,
+   "pct_lower_october": 0.1305052771,
+   "ci_low": 0.0709019385,
+   "ci_high": 0.1901086158,
+   "ug_lower_october": 16.0535511078
+  }
+ ],
+ "before": [
+  {
+   "year": 2018,
+   "severe_days_oct_nov": 9,
+   "severe_before_1_nov": 1,
+   "severe_before_first_stage_III": null,
+   "mean_pm25_october": 129.2281719898,
+   "mean_pm25_november": 209.8866199887
+  },
+  {
+   "year": 2019,
+   "severe_days_oct_nov": 13,
+   "severe_before_1_nov": 4,
+   "severe_before_first_stage_III": null,
+   "mean_pm25_october": 139.8009821852,
+   "mean_pm25_november": 222.8809770028
+  },
+  {
+   "year": 2020,
+   "severe_days_oct_nov": 14,
+   "severe_before_1_nov": 2,
+   "severe_before_first_stage_III": null,
+   "mean_pm25_october": 148.7889965897,
+   "mean_pm25_november": 241.2957989603
+  },
+  {
+   "year": 2021,
+   "severe_days_oct_nov": 14,
+   "severe_before_1_nov": 0,
+   "severe_before_first_stage_III": null,
+   "mean_pm25_october": 80.9030250917,
+   "mean_pm25_november": 247.3973044535
+  },
+  {
+   "year": 2022,
+   "severe_days_oct_nov": 6,
+   "severe_before_1_nov": 1,
+   "severe_before_first_stage_III": null,
+   "mean_pm25_october": 111.2124580368,
+   "mean_pm25_november": 194.3271500025
+  },
+  {
+   "year": 2023,
+   "severe_days_oct_nov": 17,
+   "severe_before_1_nov": 0,
+   "severe_before_first_stage_III": null,
+   "mean_pm25_october": 120.0162235197,
+   "mean_pm25_november": 255.997191214
+  },
+  {
+   "year": 2024,
+   "severe_days_oct_nov": 16,
+   "severe_before_1_nov": 0,
+   "severe_before_first_stage_III": 7.0,
+   "mean_pm25_october": 128.5263979033,
+   "mean_pm25_november": 284.6032309129
+  },
+  {
+   "year": 2025,
+   "severe_days_oct_nov": 17,
+   "severe_before_1_nov": 2,
+   "severe_before_first_stage_III": 5.0,
+   "mean_pm25_october": 125.3198966663,
+   "mean_pm25_november": 244.2794469952
+  }
+ ]
+}
