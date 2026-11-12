@@ -1,0 +1,7 @@
+station_a,station_b,shared_hours,hourly_corr,identical_share
+Anand Vihar,Ashok Vihar,59272,0.901,0.013
+Anand Vihar,Aya Nagar,58234,0.755,0.008
+Anand Vihar,Bawana,57287,0.823,0.012
+Ashok Vihar,Aya Nagar,61669,0.773,0.011
+Ashok Vihar,Bawana,61349,0.875,0.014
+Aya Nagar,Bawana,59954,0.762,0.008
